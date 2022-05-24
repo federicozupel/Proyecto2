@@ -1,0 +1,39 @@
+
+
+body{ padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';font-family: 'Quicksand', sans-serif;
+}
+
+div{
+    display: flex;
+    position: relative;
+}
+.navegador{
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+    flex-direction: row-reverse;
+    position: relative;
+    padding-top: 10px;
+    align-items: center;
+}
+.navegador__boton{
+    padding: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100vh;
+    background-color: black;
+}
+.sidebar__botons{
+    flex-direction: column;
+
+}
