@@ -5,6 +5,16 @@ body{ padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins';font-family: 'Quicksand', sans-serif;
 }
+footer{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content:center ;
+    margin: auto;
+    column-width: auto;
+    align-items: baseline;
+}
 
 div{
     display: flex;
