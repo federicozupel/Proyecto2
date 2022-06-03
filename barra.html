@@ -1,40 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estilo CF</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="Estilo.css">
-<script src="https://kit.fontawesome.com/83a1ef474a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Estilo.css">
+    <script src="https://kit.fontawesome.com/83a1ef474a.js" crossorigin="anonymous"></script>
+    <script src="bara.js"></script>
 </head>
 
 <body>
-    <div>
-        <header>
-            <div class="navegador">  
-                <div class="navegador__boton"><a href="index.html">Home</a></div>
-                <div class="navegador__boton"><a href="index.html">Conocenos</a></div>
-                <div class="navegador__boton"><a href="index.html">Contactanos</a></div>
-            </div>    
-            <div class="sidebar">
-                <div class="sidebar__icon">
-                    <i class="fa-solid fa-bars"></i>
+    <header class="navegador">
+        <div class="navegador__boton"><a href="index.html">Home</a></div>
+        <div class="navegador__boton"><a href="conocenos.html">Conocenos</a></div>
+        <div class="navegador__boton"><a href="contactanos.html">Contactanos</a></div>
+    </header>
+    <div class="navergador__título">
+        <a <i id="bars" class="fa-solid fa-bars" onClick='openSidebar()'></i></a>
+        <p>Crossfit Exercises</p>
+    </div>
+    <div id="sidebar1" class="sidebar">
+        <!-- <div class="sidebar__icon">
                     <i class="fa-solid fa-xmark"></i>
-                </div>
-                <div class="sidebar__botons">
-                    <ul> 
-                        <li class="sidebar__boton"><a href="index.html">Barra</a></li>
-                        <li class="sidebar__boton"><a href="index.html">Barral</a></li>
-                        <li class="sidebar__boton"><a href="index.html">Dumbbell</a></li>
-                        <li class="sidebar__boton"><a href="index.html">Cajón</a></li>
-                    </ul>
-                </div>
-            </div>
-
+                </div> -->
+        <ul>
+            <li class="sidebar__boton"><a href="barra.html">Barra</a></li>
+            <li class="sidebar__boton"><a href="barral.html">Barral</a></li>
+            <li class="sidebar__boton"><a href="dumbbell.html">Dumbbell</a></li>
+        </ul>
+    </div>
+    <div class="páginaEjercicios">
+        <h2>Clean</h2>
+        <p>Para comenzar a realizar el Clean debemos colocarnos detrás de una barra cargada que se situará en el suelo.
+            Con las rodillas flexionadas del ancho de los hombros tomaremos la barra con las manos de manera tal que las
+            palmas miren hacia el cuerpo y subiremos la misma sin curvar la espalda, hasta que la barra se sitúe a la
+            altura de los muslos.
+            <br>
+            Tal como si hubiéramos hecho un peso muerto en la primera parte del movimiento, cuando la barra se encuentra
+            a la altura de los muslos, sin cortar el recorrido del ejercicio, realizaremos un salto para flexionar las
+            rodillas y amortiguar el peso realizando una sentadilla mientras al mismo tiempo llevamos la barra a los
+            hombros. Una vez que la barra se encuentra a la altura de los hombros, se extienden las rodillas sin
+            bloquearlas, para culminar el Clean o cargada.
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ty14ogq_Vok" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <h2>Snatch</h2>
+        <p>¿Cuál es el origen del snatch?
+            Es uno de los ejercicios que Crossfit heredó de la halterofilia. 
+            Para la posición inicial colocamos la barra delante de nuestros pies y la agarramos con un agarre ancho y
+            con las palmas de las manos mirando hacia nuestro cuerpo. La espalda debe de estar recta y la mirada al
+            frente para mantenerla. A continuación, con las piernas separadas por la anchura de las caderas y los pies orientados ligeramente
+            hacia afuera para tener un mayor equilibrio, iniciamos el levantamiento de la barra. Tomamos impulso con la
+            cadera para levantar la barra por encima de la cabeza extendiendo los brazos. Recibimos la barra realizando
+            el squat o sentadilla. Para finalizar bajamos la barra al suelo por delante del cuerpo de manera controlada.
+            <br>
+            Es muy importante no cortar el movimiento. Tiene que ser fluido y continuado para que su práctica sea
+            perfecta.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9xQp2sldyts" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <h2>Split Jerk</h2>
+        <p>El split jerk es en halterofilia la segunda parte del conocido como dos tiempos, el primero sería el clean o
+            cargada y luego el jerk siendo el más usado el split jerk.Con una apertura de pies del ancho de la cadera,
+            colocaremos la barra apoyada en la parte superior de nuestro pecho y la parte delantera del hombro, a la
+            altura de las clavículas. Las manos deben estar más abiertas que el ancho de los hombros con un agarre
+            total, con la barra sobre el talón de nuestras manos. Los codos ligeramente adelantados a la barra, con los
+            antebrazos en diagonal al suelo.<br>
+            Sin separar los talones en el suelo y sin variar la posición del tronco,
+            realizaremos una respiración para llenar la caja torácica de aire y comenzar el dip. Flexionaremos las
+            caderas y rodillas hasta más o menos 1/4 de nuestra sentadilla y después extenderemos de manera explosiva la
+            cadera y las rodillas, finalizando con un empuje de brazos.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GUDkOtraHHY" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
 </body>
+<footer class="footer">
+    <div class="iconosfooter">
+        <a <i class="fab fa-youtube"></i></a>
+        <a <i class="fab fa-instagram"></i></a>
+        <a <i class="fab fa-twitter"></i></a>
+    </div>
+
+
+    <p>Derechos Reservados 2022</p>
+
+
+
+</footer>
+
 </html>

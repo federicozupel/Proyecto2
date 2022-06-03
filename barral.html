@@ -1,40 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estilo CF</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="Estilo.css">
-<script src="https://kit.fontawesome.com/83a1ef474a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Estilo.css">
+    <script src="https://kit.fontawesome.com/83a1ef474a.js" crossorigin="anonymous"></script>
+    <script src="bara.js"></script>
 </head>
 
 <body>
-    <div>
-        <header>
-            <div class="navegador">  
-                <div class="navegador__boton"><a href="index.html">Home</a></div>
-                <div class="navegador__boton"><a href="index.html">Conocenos</a></div>
-                <div class="navegador__boton"><a href="index.html">Contactanos</a></div>
-            </div>    
-            <div class="sidebar">
-                <div class="sidebar__icon">
-                    <i class="fa-solid fa-bars"></i>
+    <header class="navegador">
+        <div class="navegador__boton"><a href="index.html">Home</a></div>
+        <div class="navegador__boton"><a href="conocenos.html">Conocenos</a></div>
+        <div class="navegador__boton"><a href="contactanos.html">Contactanos</a></div>
+    </header>
+    <div class="navergador__título">
+        <a <i id="bars" class="fa-solid fa-bars" onClick='openSidebar()'></i></a>
+        <p>Crossfit Exercises</p>
+    </div>
+    <div id="sidebar1" class="sidebar">
+        <!-- <div class="sidebar__icon">
                     <i class="fa-solid fa-xmark"></i>
-                </div>
-                <div class="sidebar__botons">
-                    <ul> 
-                        <li class="sidebar__boton"><a href="index.html">Barra</a></li>
-                        <li class="sidebar__boton"><a href="index.html">Barral</a></li>
-                        <li class="sidebar__boton"><a href="index.html">Dumbbell</a></li>
-                        <li class="sidebar__boton"><a href="index.html">Cajón</a></li>
-                    </ul>
-                </div>
-            </div>
+                </div> -->
+        <ul>
+            <li class="sidebar__boton"><a href="barra.html">Barra</a></li>
+            <li class="sidebar__boton"><a href="barral.html">Barral</a></li>
+            <li class="sidebar__boton"><a href="dumbbell.html">Dumbbell</a></li>
+        </ul>
+    </div>
+    <div class="páginaEjercicios">
+        <h2>Pull up</h2>
+        <p>Agarra la barra con ambas manos, separadas el ancho de los hombros y las palmas mirando hacia delante. Tené
+            en cuenta de colgarte con los brazos y los codos completamente estirados. Ahí comenzaras a tira del cuerpo
+            hacia arriba, la barbilla por encima de la barra.<br>
+            No te olvides de contraer la espalda, relajar el cuello y alejar los hombros de las orejas. Mantén el tronco
+            siempre activo y contraído. Baja despacio y de forma controlada hasta que los brazos están de nuevo
+            completamente estirados.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/aAggnpPyR6E" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <h2>Muscle up</h2>
+        <p>Nos colocamos de pie frente la barra o estructura. Saltamos hacia la barra para colgarnos. La separación
+            entre las dos manos tiene que ser igual o un poco más que la anchura de los hombros. La posición que
+            adoptamos para colgarnos inicialmente tiene que ser en “hollow”. Desde colgados en posición de “hollow”
+            inmediatamente iniciamos el balanceo llevando las piernas hacia atrás y el tórax hacia delante para llegar a
+            la posición de “arch”. Desde la posición de arch se inicia el tirón. Las piernas juntas y en tensión se
+            desplazan hacia delante mientras con el tirón se busca llevar la barra hacia la cadera.<br>
+            Es importante pensar que el tirón nunca termina hasta que no te encuentras encima de la barra.
+            Cuanto más vertical y lineal sea el tirón, más efectivo y eficiente se convierte el movimiento. También
+            requiere más fuerza y técnica. Una vez lograda la máxima extensión de la cadera, pasaremos a realizar la
+            posterior flexión de esta. Los pies se llevan hacia atrás y el tronco hacia delante para finalizar la
+            transición. Para lograr la posición
+            final nos centraremos en realizar la extensión de los codos o “dip”.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OCg3UXgzftc" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <h2>Toes to bar</h2>
+        <p>El ejercicio comienza con el atleta colgado en la barra en suspensión. Desde aquí, debe subir los pies hasta
+            que estén en contacto con la barra desde donde cuelga. En concreto, debe golpear en el espacio entre las dos
+            manos.<br>
+            Para volver a hacer otra repetición, los pies deben regresar a la posición colgante y sobrepasar la línea
+            vertical imaginaria del eje del atleta.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6dHvTlsMvNY" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+    <footer class="footer">
+        <div class="iconosfooter">
+            <a <i class="fab fa-youtube"></i></a>
+            <a <i class="fab fa-instagram"></i></a>
+            <a <i class="fab fa-twitter"></i></a>
+        </div>
+        <p>Derechos Reservados 2022</p>
+    </footer>
 
-</body>
 </html>

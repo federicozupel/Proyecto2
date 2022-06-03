@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, initial-scale=1.0">
     <title>Estilo CF</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,30 +11,50 @@
 <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="Estilo.css">
 <script src="https://kit.fontawesome.com/83a1ef474a.js" crossorigin="anonymous"></script>
+<script src="bara.js"></script>
 </head>
 
-<body>
-    <div>
-        <header>
-            <div class="navegador">  
-                <div class="navegador__boton"><a href="index.html">Home</a></div>
-                <div class="navegador__boton"><a href="index.html">Conocenos</a></div>
-                <div class="navegador__boton"><a href="index.html">Contactanos</a></div>
-            </div>    
-            <div class="sidebar">
-                <div class="sidebar__icon">
-                    <i class="fa-solid fa-bars"></i>
+<body id="bg">
+    <header class="navegador">
+        <div class="navegador__boton"><a href="index.html">Home</a></div>
+        <div class="navegador__boton"><a href="conocenos.html">Conocenos</a></div>
+        <div class="navegador__boton"><a href="contactanos.html">Contactanos</a></div>
+    </header>
+        <div class="navergador__título">
+            <a <i id="bars" class="fa-solid fa-bars" onClick='openSidebar()'></i></a>
+            <p>Crossfit Exercises</p>
+        </div> 
+            <div id="sidebar1" class="sidebar" >
+                <!-- <div class="sidebar__icon">
                     <i class="fa-solid fa-xmark"></i>
-                </div>
-                <div class="sidebar__botons">
-                    <ul> 
-                        <li class="sidebar__boton"><a href="index.html">Barra</a></li>
-                        <li class="sidebar__boton"><a href="index.html">Barral</a></li>
-                        <li class="sidebar__boton"><a href="index.html">Dumbbell</a></li>
-                        <li class="sidebar__boton"><a href="index.html">Cajón</a></li>
-                    </ul>
-                </div>
+                </div> -->
+                <ul> 
+                    <li class="sidebar__boton"><a href="barra.html">Barra</a></li>
+                    <li class="sidebar__boton"><a href="barral.html">Barral</a></li>
+                    <li class="sidebar__boton"><a href="dumbbell.html">Dumbbell</a></li>
+                </ul>
             </div>
+    <div class="formulario">
+        <div class="form">
+        <input class="inputbox" type="text" placeholder="Nombre" id="Nombre" onkeydown="flip(event)">
+        <input class="inputbox" type="text" placeholder="Apellido" id="Apellido" onkeydown="flip(event)">
+        <input class="inputbox" type="email" placeholder="E-mail" id="mail" onkeydown="flip(event)">
+        <textarea class="inputbox coment" placeholder="Comentario" id="comentario" onkeydown="flip(event)"></textarea>
+        <input class="inpux" type="submit" >
+        </div>
+    </div>
 
 </body>
+<footer class="footer">
+    <div class="iconosfooter">
+        <a <i class="fab fa-youtube"></i></a>
+        <a <i class="fab fa-instagram"></i></a>
+        <a <i class="fab fa-twitter"></i></a>
+    </div>
+    
+    <p>Derechos Reservados 2022</p>
+
+    
+
+</footer>
 </html>
